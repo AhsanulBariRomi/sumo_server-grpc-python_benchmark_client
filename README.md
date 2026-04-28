@@ -37,7 +37,7 @@ sudo apt update
 sudo apt install -y sumo sumo-tools libsumo-dev
 ```
 
-### Download the Source Code
+Download the Source Code
 
 ```
 cd ~

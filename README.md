@@ -56,6 +56,7 @@ Open your WSL terminal and navigate to your mounted Windows drive where the proj
 
 ```
 cd "/mnt/f/4. Academic(MSc)/Thesis/Thesis_PoC"
+```
 
 ## 2. Generate the C++ Protobuf Bindings
 
@@ -63,6 +64,7 @@ Use the Linux protoc compiler to read vehicle.proto and generate the C++ communi
 
 ```
 protoc --cpp_out=. --grpc_out=. --plugin=protoc-gen-grpc=$(which grpc_cpp_plugin) vehicle.proto
+```
 
 (If successful, this will silently generate vehicle.pb.h, vehicle.pb.cc, vehicle.grpc.pb.h, and vehicle.grpc.pb.cc).
 

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+// The question the client will ask
+message PositionRequest {
+  string vehicle_id = 1;
+}
+
+// The answer the server will give
+message PositionResponse {
+  double x = 1;
+  double y = 2;
+}
+
+// The Service Definition
+service VehicleService {
+  rpc GetPosition (PositionRequest) returns (PositionResponse);
+}

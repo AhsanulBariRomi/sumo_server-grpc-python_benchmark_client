@@ -1,4 +1,4 @@
-This project implements a co-simulation benchmark comparing the latency of 1,000 sequential TraCI requests against 1,000 gRPC requests. The system utilizes a custom C++ server loading SUMO into RAM via `libsumo` and communicates with a Python client.
+## This project implements a co-simulation benchmark comparing the latency of 1,000 sequential TraCI requests against 1,000 gRPC requests. The system utilizes a custom C++ server loading SUMO into RAM via `libsumo` and communicates with a Python client.
 
 # Phase 1: System & Environment Setup (Ubuntu / WSL)
 
@@ -124,4 +124,5 @@ helloworld.sumocfg / rou.xml / net.xml (The SUMO traffic scenario files)
 
 # Author:
 Md Ahsanul Bari
+
 MSc in DSE, TU Dresden
